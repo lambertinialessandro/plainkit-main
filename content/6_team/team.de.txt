@@ -1,0 +1,78 @@
+Title: team
+
+----
+
+Intro-headline: 
+
+----
+
+Intro-text: 
+
+----
+
+Header-image: 
+
+----
+
+Leadership-headline: 
+
+----
+
+Leadership-text: 
+
+----
+
+Team-members:
+
+- 
+  member_id: ""
+  member_name: ""
+  member_biography: ""
+  member_image: [ ]
+  member_role: ""
+  member_subjects: ""
+  member_roles: ""
+
+----
+
+Memoriam-headline: 
+
+----
+
+Memoriam-text-left: 
+
+----
+
+Memoriam-text-right: 
+
+----
+
+Memoriam-image: 
+
+----
+
+Teachers-headline: 
+
+----
+
+Teachers-text: 
+
+----
+
+Docents-members:
+
+- 
+  member_id: ""
+  member_name: ""
+  member_biography: ""
+  member_image: [ ]
+  member_role: ""
+  member_subjects: ""
+
+----
+
+Show-footer-cta: true
+
+----
+
+Roles-manager: 

@@ -1,0 +1,177 @@
+Title: projects
+
+----
+
+Projects-list:
+
+- 
+  project_id: on_the_trail
+  project_name: Solo Project
+  project_title: On the trail
+  header_image:
+    - file://yuqqhodhngfhgckc
+  project_categories: Graduates 2021
+  project_subjects: Choreography
+  project_description_left: >
+    "On the trail" describes the situation
+    after a disruption, the moment when
+    things begin to fall back into place
+    after being shaken or even shattered. In
+    this moment of apparent chaos, where
+    normality no longer functions or only
+    functions to a limited extent, lies the
+    potential to sense the essence of things
+    and redefine normality.
+  project_description_right: >
+    Structures develop, habits become
+    ingrained. What is perceived as normal
+    is the result of a constant, sometimes
+    unreflective, reproduction of what is
+    considered right, desirable, and
+    productive. We function and forget to
+    question.
+  project_impressions:
+    - file://yuqqhodhngfhgckc
+- 
+  project_id: reset
+  project_name: Final Project
+  project_title: Re:set
+  header_image:
+    - file://urh1ou3wqlvc26ls
+  project_categories: Graduates 2022
+  project_subjects: Choreography
+  project_description_left: "on the trail beschreibt die Situation nach einem Einschnitt, den Moment, wenn sich Dinge wieder zusammenfügen, nachdem sie erschüttert wurden oder sogar zerbrochen sind. In diesem Moment des scheinbaren Chaos', in welchem die Normalität nicht mehr oder nur bedingt funktioniert, liegt ein Potenzial, die Essenz der Dinge zu erahnen und Normalität neu zu definieren."
+  project_description_right: >
+    Strukturen entwickeln sich, Gewohnheiten
+    manifestieren sich. Was als normal
+    wahrgenommen wird, ist Resultat einer
+    steten mitunter unreflektierten
+    Reproduktion dessen, was als richtig,
+    erstrebenswert und produktiv gilt. Wir
+    funktionieren und vergessen in Frage zu
+    stellen.
+  project_impressions:
+    - file://urh1ou3wqlvc26ls
+- 
+  project_id: under_utopia
+  project_name: Solo project
+  project_title: Under Utopia
+  header_image:
+    - file://pkcw7ye5zkypcmme
+  project_categories: 2nd Schoolyear_2023
+  project_subjects: Solo project
+  project_description_left: |
+    Utopia is a place of longing, projection of our dreams and desires, a promise and the reason why we continue, transcend and move forward.
+    
+    „Utopia lies at the horizon.
+    When I draw nearer by two steps,
+    it retreats two steps.
+    If I proceed ten steps forward,
+    It swiftly slips ten steps ahead.
+    No matter how far I go, I can never reach it.
+    What, then, is the purpose of utopia?
+    It is to cause us to advance.“ (Eduardo Galeano)
+  project_description_right: |
+    14 human beings share in short pieces their paths of what’s underneath their own utopias: the steps, the obstacles, the fears, the achievements, their trips and all that lies under the impulse to keep moving forward.
+    
+    What’s under your utopia?
+  project_impressions:
+    - file://pkcw7ye5zkypcmme
+- 
+  project_id: solo_project_2024
+  project_name: Solo project
+  project_title: What does Looking taste like?
+  header_image:
+    - file://tuvhiiqjr1nwfq17
+  project_categories: ""
+  project_subjects: Solo project
+  project_description_left: |
+    The central examination requirement in the second year of training at CDSH consists of creating an original short production. This year, 19 dancers developed short pieces, which, under the theme "What does Looking Taste Like?", explore a wide range of topics.
+    
+    The Ho’Omau class invites you to embark on a delicious journey through three different dinners, each with a carefully assembled six-course meal. A variety of flavors is guaranteed to delight even the most refined and delicate appetite. You will taste coldness and darkness, splashed with a dash of tenderness, as well as warmth and joy, accompanied by vibrant colors and aromas. It will surprise and satisfy your desires.
+  project_description_right: |
+    Whatever your eyes crave, we are.
+    
+    In composition workshops led by Jascha Viehstädt and Raymond Liew Jin Pin, the trainees acquired the methods and tools to create their own pieces. Our artistic director, Raul Valdez, provided mentoring sessions, as he does every year, helping them find the right format and offering impetus for the implementation of their concepts and ideas. Björn Salzer supported the choreographers in developing and realizing their lighting concepts, while dramaturgical consultation was provided by Matthias Quabbe as part of a dramaturgy seminar. Javier Báez, Sina Rundel, and Josefine Taape handled the areas of consulting, logistics, and production.
+  project_impressions:
+    - file://tuvhiiqjr1nwfq17
+- 
+  project_id: meeting_point
+  project_name: Final projet
+  project_title: Meeting Point
+  header_image:
+    - file://illdyjnv0svddgil
+  project_categories: Graduates 2025
+  project_subjects: Choreography
+  project_description_left: |
+    Each year, the final project, the culminating examination performance of our graduates, takes place under a different theme. Raul Valdez, artistic director of CDSH – Contemporary Dance School Hamburg, draws inspiration for the theme from the energy and dynamism of each graduating class. This year, "meeting point" is both the guiding theme and a space for experimentation for all choreographers and dancers.
+    
+    A "meeting point" is primarily a specific place in time and space. When people come together, they do so not only from different geographical directions, but also with diverse social backgrounds, education, cultures, and religious and political convictions. A meeting point is therefore not just a place of arrival, but also a place of departure: here, people share their different perspectives and ideals and leave with new outlooks.
+    
+    In antiquity, it was a place in the centers of city-states where people with diverse, often opposing, opinions and perspectives could come together to discuss and shape political reality. A meeting place that marks the birthplace of modern democracy.
+  project_description_right: |
+    The openness to see and hear one another requires an awareness of the complexity of reality, of contradictions, gray areas, and overlaps. True solutions do not lie in crude oversimplifications, rigid ideologies, and the demonization of opposing views, but in the nuances that lie between stereotypes and extremes.
+    
+    In times when fronts are hardening, populist rhetoric is mobilizing people and creating political realities, coming together is of particular importance. The world is not made up of a series of absolutes, but of a web of different truths. The only way to reconcile them is to listen to one another and meet one another with empathy.
+    
+    Last but not least, we also find such meeting places within ourselves, when different aspects of the self enter into dialogue: our own past and present, different emotional states, or conflicting desires and values.
+  project_impressions:
+    - file://illdyjnv0svddgil
+- 
+  project_id: aperception
+  project_name: Solo project
+  project_title: APERCEPTION
+  header_image:
+    - file://lvh7fszsiupmmejf
+  project_categories: 2nd Schoolyear 2025
+  project_subjects: Solo project
+  project_description_left: |
+    The central examination requirement in the second year of training at CDSH consists of the creation of an original short production. This year, 22 dancers developed short pieces, which, under the theme of "APPERCEPTION," explore a wide range of topics.
+    
+    Spilled ink on the paper. A picture is forming. Is it a butterfly? Two people holding hands?
+    
+    How can I tell the difference between an objective truth and my subjective interpretation of it? Is there even such a thing as objective when we all look at the world through our own biases?
+  project_description_right: |
+    "The question is not what you look at, but what you see." – This is Apperception.
+    
+    In composition workshops with Jascha Viehstädt and Raymond Liew Jin Pin, as well as with Claudia Ferrando and Lisa Hofmann, the trainees were given the methods and tools to realize their own pieces. Our artistic director, Raul Valdez, provided mentoring sessions, as he does every year, helping them find the right format and offering impetus for the implementation of their concepts and ideas. Björn Salzer supported the choreographers in developing and realizing their lighting concepts, Claudia Ferrando in music editing and sound design, and dramaturgical consultation was provided through a dramaturgy seminar led by Matthias Quabbe. Consulting, logistics, and production were handled by Javier Báez, Sina Rundel, and Josefine Taape.
+  project_impressions:
+    - file://lvh7fszsiupmmejf
+
+----
+
+Categories-project-manager:
+
+- 
+  category_id: graduates_2021
+  category_name: Graduates 2021
+- 
+  category_id: graduates_2022
+  category_name: Graduates 2022
+- 
+  category_id: 2nd_schoolyear_2023
+  category_name: 2nd Schoolyear_2023
+- 
+  category_id: 2nd_schoolyear_2024
+  category_name: 2nd Schoolyear 2024
+- 
+  category_id: graduates_2025
+  category_name: Graduates 2025
+- 
+  category_id: 2nd_schoolyear_2025
+  category_name: 2nd Schoolyear 2025
+
+----
+
+Subject-project-manager:
+
+- 
+  subject_id: choreography
+  subject_name: Choreography
+- 
+  subject_id: solo_project
+  subject_name: Solo project
+
+----
+
+Uuid: 8akfyxsulywufbxf

@@ -1,0 +1,24 @@
+title: Teachers
+
+sections:
+  content:
+    type: fields
+    fields:
+      teachers:
+        label: Teacher List
+        type: structure
+        fields:
+          name:
+            label: Name
+            type: text
+          subject:
+            label: Subject
+            type: select
+            options:
+              A: Subject A
+              B: Subject B
+              C: Subject C
+          photo:
+            label: Photo
+            type: files
+            multiple: false

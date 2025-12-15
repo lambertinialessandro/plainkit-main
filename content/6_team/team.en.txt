@@ -1,0 +1,132 @@
+Title: team
+
+----
+
+Intro-headline: Team
+
+----
+
+Intro-text: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+
+----
+
+Header-image: - file://iqiemrej5yvz5qm4
+
+----
+
+Leadership-headline: Management Team
+
+----
+
+Leadership-text: As the management team of CDSH, Javier Báez, Raul Valdez, and Sina Rundel can draw on their many years of artistic and pedagogical experience to guarantee a high-quality, real-world preparation for the profession of contemporary stage dancer in their training program.
+
+----
+
+Team-members:
+
+- 
+  member_id: javier_báez
+  member_name: Javier Báez
+  member_biography: |
+    The Contemporary Dance School Hamburg offers you high-level contemporary dance and the development of your artistic personality through exchange with experienced mentors from around the world. Daily training prepares you for the demands of a career in stage dance. As a state-accredited vocational school for contemporary stage dance, the CDSH offers you a three-year, practice-oriented dance education, connects you with artists in the scene, and
+    
+    collaborates with many relevant areas of dance education. An effective curriculum helps you develop technically, artistically, and creatively. Through choreographic project work, you gain an understanding of professional practice and acquire stage experience through regular performances in theaters. An experienced team of artists and educators supports you in your development during your dance training.
+  member_image:
+    - file://yixdinf3sk9xbkey
+  member_role: School Management
+  member_subjects: ""
+- 
+  member_id: raul_valdez
+  member_name: Raul Valdez
+  member_biography: |
+    The Contemporary Dance School Hamburg offers you high-level contemporary dance and the development of your artistic personality through exchange with experienced mentors from around the world. Daily training prepares you for the demands of a career in stage dance. As a state-accredited vocational school for contemporary stage dance, the CDSH offers you a three-year, practice-oriented dance education, connects you with artists in the scene, and
+    
+    collaborates with many relevant areas of dance education. An effective curriculum helps you develop technically, artistically, and creatively. Through choreographic project work, you gain an understanding of professional practice and acquire stage experience through regular performances in theaters. An experienced team of artists and educators supports you in your development during your dance training.
+  member_image:
+    - file://0xkufpsuuxzulq18
+  member_role: Artistic Director
+  member_subjects: ""
+- 
+  member_id: sina_rundel
+  member_name: Sina Rundel
+  member_biography: |
+    The Contemporary Dance School Hamburg offers you high-level contemporary dance and the development of your artistic personality through exchange with experienced mentors from around the world. Daily training prepares you for the demands of a career in stage dance. As a state-accredited vocational school for contemporary stage dance, the CDSH offers you a three-year, practice-oriented dance education, connects you with artists in the scene, and
+    
+    collaborates with many relevant areas of dance education. An effective curriculum helps you develop technically, artistically, and creatively. Through choreographic project work, you gain an understanding of professional practice and acquire stage experience through regular performances in theaters. An experienced team of artists and educators supports you in your development during your dance training.
+  member_image:
+    - file://dnbml4oo8tlzcj4u
+  member_role: Communications and Student Support
+  member_subjects: ""
+- 
+  member_id: martin_stöckle
+  member_name: Martin Stöckle
+  member_biography: |
+    The Contemporary Dance School Hamburg offers you high-level contemporary dance and the development of your artistic personality through exchange with experienced mentors from around the world. Daily training prepares you for the demands of a career in stage dance. As a state-accredited vocational school for contemporary stage dance, the CDSH offers you a three-year, practice-oriented dance education, connects you with artists in the scene, and
+    
+    collaborates with many relevant areas of dance education. An effective curriculum helps you develop technically, artistically, and creatively. Through choreographic project work, you gain an understanding of professional practice and acquire stage experience through regular performances in theaters. An experienced team of artists and educators supports you in your development during your dance training.
+  member_image:
+    - file://l3kbcw9cwfaff5tx
+  member_role: Business Consultant
+  member_subjects: ""
+
+----
+
+Memoriam-headline: In Memoriam: Tanja Báez
+
+----
+
+Memoriam-text-left: It was with great sadness and shock that we announced the passing of Tanja Báez in October 2016. As a co-founder of the Contemporary Dance School Hamburg, Tanja was one of the school's pillars from the very beginning, and her loss will be irreplaceable. She embarked on her final journey with strength, courage, and without complaint, and will forever be a role model for us.
+
+----
+
+Memoriam-text-right: Rest in peace, Tanja!
+
+----
+
+Memoriam-image: - file://ddr5bpscfrlwokbq
+
+----
+
+Teachers-headline: Teachers
+
+----
+
+Teachers-text: Our international team of lecturers offers you a broad spectrum of insights into diverse working methods in very different parts of the world. From Latin America to Eastern Europe, the USA, Asia, and across Europe, our lecturers bring a wide range of experiences, not only in their subject matter but also in their practical work. As individuals with their own artistic backgrounds, they can provide you with a very concrete, practical, and experience-based picture of real-world work practices, in addition to their professional and technical expertise.
+
+----
+
+Docents-members: 
+
+----
+
+Show-footer-cta: true
+
+----
+
+Roles-manager:
+
+- 
+  role_id: school_management
+  role_name: School Management
+- 
+  role_id: artistic_director
+  role_name: Artistic Director
+- 
+  role_id: communications_studentSupport
+  role_name: Communications and Student Support
+- 
+  role_id: business_consultant
+  role_name: Business Consultant
+- 
+  role_id: teacher
+  role_name: Teacher
+- 
+  role_id: choreographer
+  role_name: Choreographer
+- 
+  role_id: guest_choreographer
+  role_name: Guest Choreographer
+
+----
+
+Uuid: vvupitbaosywvnwt

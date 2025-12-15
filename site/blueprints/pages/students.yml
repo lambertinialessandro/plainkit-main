@@ -1,0 +1,98 @@
+title: Classes
+icon: group
+
+tabs:
+  content:
+    label: Classi e Gruppi
+    fields:
+      # --- SECTION 1: HEADER & INTRO ---
+      section_header_label:
+        label: 1. Header & Intro
+        type: headline
+      
+      intro_headline:
+        label: Main Headline (e.g., Team)
+        type: text
+      
+      intro_text:
+        label: Introductory Text
+        type: textarea
+      
+      header_image:
+        label: Header Image
+        type: files
+        max: 1
+        query: page.images
+      
+      # --- SECTION 2: STUDENT CLASSES ---
+      line_1:
+        type: line
+      section_classes_label:
+        label: 2. Classes List
+        type: headline
+
+      student_groups:
+        label: Classes
+        type: structure
+        required: true
+        columns:
+          class_name: 1/4
+          class_year: 1/4
+          class_id: 1/4
+        fields:
+          class_id:
+            label: Internal ID (Slug)
+            type: text
+            required: true
+          class_name:
+            label: Name of the group
+            type: text
+            required: true
+          class_description_left:
+            label: Description
+            type: textarea
+            size: medium
+            buttons: false
+            help: Detailed description for the class dedicated page.
+          class_description_right:
+            label: Description
+            type: textarea
+            size: medium
+            buttons: false
+            help: Detailed description for the class dedicated page.
+          class_names:
+            label: Students name
+            type: textarea
+            size: medium
+            buttons: false
+            help: Name and surname of each student belonginig to the class
+          class_image:
+            label: Class Picture
+            type: files
+            max: 1
+            query: page.images
+          selected_projects:
+            label: Projects for this Class
+            type: multiselect
+            options: query
+            query:
+              fetch: page('projects').projects_list.toStructure
+              text: "{{ item.project_title }}"
+              value: "{{ item.project_id }}"
+          class_year:
+            label: Anni di Studio
+            type: structure
+            fields:
+              start:
+                label: Start year
+                type: number
+                min: 2000
+              end:
+                label: End year
+                type: number
+                min: 2000           
+      # --- SECTION 3: FOOTER CTA ---
+      line_2:
+        type: line
+      footer_cta:
+        extends: fields/footer_cta

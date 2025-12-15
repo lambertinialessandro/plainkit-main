@@ -1,0 +1,78 @@
+Title: news
+
+----
+
+Header-title: News
+
+----
+
+Header-intro: Here you'll find all the latest information about final projects, performances, and other events at our school. Stay up to date!
+
+----
+
+Header-image: - file://uigrvxkjjcpeowkr
+
+----
+
+Banner-text: THE AUDITION DATES FOR 2025 ARE NOW ONLINE.
+
+----
+
+Banner-link-text: REGISTER NOW
+
+----
+
+Banner-link-url: 
+
+----
+
+News-items:
+
+- 
+  title: What dies Looking Taste like
+  projectid: solo_project_2024
+  description: >
+    Short description solo project "What
+    does Looking Taste like"
+  image:
+    - file://31vmidtkwmslud2z
+- 
+  title: Meeting point
+  projectid: meeting_point
+  description: Meeting point short description
+  image:
+    - file://t5b6kpwlajrxpykw
+- 
+  title: Under Utopia
+  projectid: under_utopia
+  description: Under Utopia short description
+  image:
+    - file://uppi6rizzn1ezx1n
+- 
+  title: APERCEPTION
+  projectid: aperception
+  description: APERCEPTION short description
+  image:
+    - file://snt8tlr8biem3bmg
+- 
+  title: RESET
+  projectid: reset
+  description: RESET short description
+  image:
+    - file://7lepetrisrp31dqu
+
+----
+
+Show-footer-cta: true
+
+----
+
+Cta-title: 
+
+----
+
+Cta-text: 
+
+----
+
+Uuid: nfupqv1xundi3z8b

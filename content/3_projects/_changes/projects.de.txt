@@ -1,0 +1,28 @@
+Title: projects
+
+----
+
+Projects-list:
+
+- 
+  project_id: ""
+  project_name: ""
+  project_title: ""
+  header_image: [ ]
+  project_categories: ""
+  project_subjects: ""
+  project_description_left: ""
+  project_description_right: ""
+  project_impressions: [ ]
+
+----
+
+Subject-project-manager: 
+
+----
+
+Lock: 302mb2dc
+
+----
+
+Categories-project-manager: 

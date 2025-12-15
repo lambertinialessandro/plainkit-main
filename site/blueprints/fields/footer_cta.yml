@@ -1,0 +1,12 @@
+# site/blueprints/fields/footer_cta.yml
+type: group
+fields:
+  section_cta_headline:
+    label: Footer CTA
+    type: headline
+    help: "If enabled, the global footer defined in Site Settings will be displayed."
+  show_footer_cta:
+    label: Show Footer CTA?
+    type: toggle
+    text: ["Hidden", "Visible"]
+    default: true

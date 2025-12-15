@@ -1,0 +1,223 @@
+title: Education
+icon: book
+
+tabs:
+  content:
+    label: Page Content
+    fields:
+      # --- SECTION 1: HEADER ---
+      section_header_label:
+        label: 1. Header Section
+        type: headline
+
+      header_headline:
+        label: Main Title
+        type: text
+
+      header_image:
+        label: Header Background Image
+        type: files
+        max: 1
+        query: page.images
+
+      # --- SECTION 2: INTRO TEXTS ---
+      line_1:
+        type: line
+      section_intro_label:
+        label: 2. Introduction Texts
+        type: headline
+
+      intro_text_left:
+        label: Intro Text (Left Column)
+        type: textarea
+        width: 1/2
+
+      intro_text_right:
+        label: Intro Text (Right Column)
+        type: textarea
+        width: 1/2
+
+      # --- SECTION 3: AUDITION BANNER ---
+      line_2:
+        type: line
+      section_audition_label:
+        label: 3. Audition Banner (Loop)
+        type: headline
+
+      audition_text:
+        label: Banner Text
+        type: text
+        help: e.g. THE AUDITION DATES 2025 ARE NOW ONLINE.
+
+      audition_link_text:
+        label: Link Text
+        type: text
+        help: e.g. REGISTER NOW
+
+      # --- SECTION 4: SUBJECTS SELECTOR ---
+      line_3:
+        type: line
+      section_subjects_label:
+        label: 4. Subjects Selector
+        type: headline
+
+      subjects_list:
+        label: Subjects List
+        type: structure
+        columns:
+          name: 1/4
+          teacher: 1/4
+          categories: 1/2
+        fields:
+          id:
+            label: Slug/ID
+            type: text
+            width: 1/2
+          name:
+            label: Subject Name
+            type: text
+            width: 1/2
+          teacher:
+            label: Teacher Name
+            type: text
+          description:
+            label: Description
+            type: textarea
+          image:
+            label: Subject Image
+            type: files
+            max: 1
+          categories:
+            label: Category (Select from list)
+            type: multiselect
+            options: query
+            query:
+              fetch: page.categories_manager.toStructure
+              text: "{{ item.category_name }}"
+              value: "{{ item.category_name }}"
+
+     # --- SECTION 5: PROGRAM STRUCTURE (Nuova Sezione) ---
+      line_4:
+        type: line
+      section_program_structure:
+        label: 5. Program Structure & Requirements
+        type: headline
+
+      program_structure_title:
+        label: Structure Section Title
+        type: text
+        placeholder: e.g. Aufbau & Struktur
+
+      program_structure_intro:
+        label: Program Intro Paragraph
+        type: textarea
+        help: Text about the 3-year duration and requirements.
+
+      program_structure_details:
+        label: Program Details Paragraph
+        type: textarea
+        help: Text about credits (ECTS) and previous studies.
+
+      # --- SECTION 6: AUSBUILDUNG (3 years program) ---
+      line_5:
+        type: line
+      section_split:
+        label: 6. Ausbildung Years
+        type: headline
+      firstYear_headline:
+        label: First year Headline
+        type: text
+      firstYear_level:
+        label: First year Level
+        type: text
+      firstYear_description:
+        label: First year Description
+        type: textarea
+
+      secondYear_headline:
+        label: Second year Headline
+        type: text
+      secondYear_level:
+        label: Second year Level
+        type: text
+      secondYear_description:
+        label: Second year Description
+        type: textarea
+
+      thirdYear_headline:
+        label: Third year Headline
+        type: text
+      thirdYear_level:
+        label: Third year Level
+        type: text
+      thirdYear_description:
+        label: Third year Description
+        type: textarea
+
+      # --- SECTION 7: COSTS ---
+      line_6:
+        type: line
+      section_structure_label:
+        label: 7. Costs
+        type: headline
+
+      costs_headline:
+        label: Costs Headline
+        type: text
+      costs_text:
+        label: Costs Description
+        type: textarea
+
+      # --- SECTION 8: FORTBUILDUNG ---
+      line_7:
+        type: line
+      section_fortbuildung_label:
+        label: 8. Fortbuildung
+        type: headline
+
+      fortbuildung_headline:
+        label: Fortbuildung Headline
+        type: text
+      fortbuildung_text:
+        label: Fortbuildung Description
+        type: textarea
+
+      fortbuildung_image:
+        label: Fortbuildung Image
+        type: files
+        max: 1
+        query: page.images
+
+      # --- SECTION 9: AKTUELLES ---
+      line_8:
+        type: line
+      section_aktuelles:
+        label: 9. Aktuelles
+        type: headline
+      aktuelles_headline:
+        label: Aktuelles Headline
+        type: text
+
+      # --- SECTION 10: FOOTER CTA ---
+      line_9:
+        type: line
+      footer_cta:
+        extends: fields/footer_cta
+
+  # --- TAB SETTINGS ---
+  settings:
+    label: Categories
+    fields:
+      section_settings_label:
+        label: Manage Categories
+        type: headline
+      categories_manager:
+        label: Available Categories
+        type: structure
+        fields:
+          category_id:
+            label: ID
+            type: text
+          category_name:
+            label: Category Name
+            type: text

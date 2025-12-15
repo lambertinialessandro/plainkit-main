@@ -1,0 +1,24 @@
+title: Site
+
+tabs:
+  pages:
+    label: Pages
+    icon: document
+    sections:
+      pages:
+        type: pages
+        layout: deck
+  settings:
+    label: Footer
+    icon: gear
+    columns:
+      - width: 3/3
+        fields:
+          global_cta_title:
+            label: Footer Title
+            type: text
+            placeholder: "Beispiel: Du möchtest uns kennenlernen?"
+          global_cta_text:
+            label: Footer Text
+            type: textarea
+            buttons: false

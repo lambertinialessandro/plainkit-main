@@ -1,0 +1,153 @@
+<?php
+use Kirby\Http\Response;
+
+return [
+    'debug' => true,
+    'languages' => true,
+
+
+    'api' => [
+        'allowInsecure' => true,
+
+        'routes' => [
+            [
+                'pattern' => '(:all)',
+                'method' => 'OPTIONS',
+                'action' => function () {
+                    header('Access-Control-Allow-Origin: http://localhost:3000');
+                    header('Access-Control-Allow-Methods: GET, POST, PUT, PATCH, DELETE, OPTIONS');
+                    header('Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With');
+                    return new Response('', 'text/plain', 204);
+                }
+            ],
+
+            // ABOUT US
+            [
+                'pattern' => 'aboutUs',
+                'method' => 'GET',
+                'auth' => false,
+                'action' => function () {
+                    $langCode = get('lang', 'en');
+                    kirby()->setCurrentLanguage($langCode);
+                    header('Access-Control-Allow-Origin: http://localhost:3000');
+                    $page = page('aboutUs');
+                    if (!$page) {
+                        return new Response('About page not found', 'application/json', 404);
+                    }
+                    return require kirby()->root('templates') . '/aboutUs.json.php';
+                }
+            ],
+
+            // TEAM 
+            [
+                'pattern' => 'team',
+                'method' => 'GET',
+                'auth' => false,
+                'action' => function () {
+                    $langCode = get('lang', 'en');
+                    kirby()->setCurrentLanguage($langCode);
+                    header('Access-Control-Allow-Origin: http://localhost:3000');
+                    header("Content-Type: application/json");
+                    $page = page('team');
+                    if (!$page) {
+                        return new Response('Page not found', 'text/plain', 404);
+                    }
+                    $data = require kirby()->root('templates') . '/team.json.php';
+                    return $data;
+                }
+            ],
+
+            // STUDENTS (CLASSES)
+            [
+                'pattern' => 'students',
+                'method' => 'GET',
+                'auth' => false,
+                'action' => function () {
+                    $langCode = get('lang', 'en');
+                    kirby()->setCurrentLanguage($langCode);
+                    header('Access-Control-Allow-Origin: http://localhost:3000');
+                    header("Content-Type: application/json");
+                    $page = page('students');
+                    if (!$page) {
+                        return new Response('Classes page not found', 'text/plain', 404);
+                    }
+                    $data = require kirby()->root('templates') . '/students.json.php';
+                    return $data;
+                }
+            ],
+
+            // PROJECTS 
+            [
+                'pattern' => 'projects',
+                'method' => 'GET',
+                'auth' => false,
+                'action' => function () {
+                    $langCode = get('lang', 'en');
+                    kirby()->setCurrentLanguage($langCode);
+                    header('Access-Control-Allow-Origin: http://localhost:3000');
+                    header("Content-Type: application/json");
+                    $page = page('projects');
+                    if (!$page) {
+                        return new Response('Projects page not found', 'text/plain', 404);
+                    }
+                    $data = require kirby()->root('templates') . '/projects.json.php';
+                    return $data;
+                }
+            ],
+
+            [
+                'pattern' => 'education',
+                'method' => 'GET',
+                'auth' => false,
+                'action' => function () {
+                    $langCode = get('lang', 'en');
+                    kirby()->setCurrentLanguage($langCode);
+                    header('Access-Control-Allow-Origin: http://localhost:3000');
+                    header("Content-Type: application/json");
+                    $page = page('education');
+                    if (!$page) {
+                        return new Response('Education page not found', 'text/plain', 404);
+                    }
+                    $data = require kirby()->root('templates') . '/education.json.php';
+                    return $data;
+                }
+            ],
+
+            // NEWS
+            [
+                'pattern' => 'news',
+                'method' => 'GET',
+                'auth' => false,
+                'action' => function () {
+                    $langCode = get('lang', 'en');
+                    kirby()->setCurrentLanguage($langCode);
+                    header('Access-Control-Allow-Origin: http://localhost:3000');
+                    $page = page('news');
+                    if (!$page) {
+                        return new Kirby\Http\Response('News page not found', 'application/json', 404);
+                    }
+                    return require kirby()->root('templates') . '/news.json.php';
+                }
+            ],
+        ],
+    ],
+
+    // ===================================
+    // 2. ROTTE ESTERNE NON-API (Opzionale)
+    // ===================================
+    // 'routes' è per rotte che non usano il prefisso /api
+    'routes' => [
+        // Esempio: auth/ping non usa il prefisso API
+        [
+            'pattern' => 'auth/ping',
+            'method' => 'GET',
+            'action' => function () {
+                return [
+                    'status' => 'success',
+                    'message' => 'API is alive and ready.',
+                    'timestamp' => time()
+                ];
+            }
+        ],
+    ]
+];

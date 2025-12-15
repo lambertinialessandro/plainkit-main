@@ -1,0 +1,124 @@
+Title: education
+
+----
+
+Header-headline: Ausbildung: Aufbau, Fächer Kosten
+
+----
+
+Header-image: - file://tfx1tvcmhiz2gyy7
+
+----
+
+Intro-text-left: Wir ermöglichen den Tänzer*innen eine nachhaltige Beschäftigung mit unterschiedlichen zeitgenössischen und klassischen Tanztechniken und -stilen sowie die Ausbildung in zahlreichen Bewegungs- und Ausdrucksformen zur Vorbereitung auf den Beruf. Neben dem regulären Training laden wir regelmäßig internationale Gäste ein, die ihr Wissen mit unseren Auszubildenden teilen.
+
+----
+
+Intro-text-right: Die Förderung individueller Wünsche des Einzelnen und der Gruppe sind Bestandteil der Zielsetzung der CDSH. Wir reagieren auf die Bedürfnisse unserer Studierenden und auf aktuelle Ansprüche des professionellen Umfeldes – unser Programm ist in ständigem Wandel begriffen.
+
+----
+
+Audition-text: DIE AUDITION TERMINE 2025 SIND JETZT ONLINE.
+
+----
+
+Audition-link-text: JETZT ANMELDEN
+
+----
+
+Subjects-list:
+
+- 
+  id: ""
+  name: ""
+  teacher: ""
+  description: ""
+  image: [ ]
+  categories: ""
+
+----
+
+Firstyear-headline: Erstes Jahr
+
+----
+
+Firstyear-level: Grundlagen
+
+----
+
+Firstyear-description: Im ersten Ausbildungsjahr liegt der Schwerpunkt auf der Erarbeitung der tanztechnischen Basis in verschiedenen Modern-Techniken, zeitgenössischem Tanz und im klassischen Ballett.
+
+----
+
+Secondyear-headline: Zweites Jahr
+
+----
+
+Secondyear-level: Intensivierung und künstlerische Entwicklung
+
+----
+
+Secondyear-description: Im zweiten Jahr werden die Basistechniken vertieft und entwickelt. Das Fach Improvisation, sowie die Entwicklung und Präsentation eines eigenen Stücks im Rahmen unseres Soloprojekts tragen dazu bei, eine eigene künstlerische Sprache zu finden und eigene kreative Impulse auf der Basis der erlernten technischen Grundlagen individuell umsetzen zu können.
+
+----
+
+Thirdyear-headline: Drittes Jahr
+
+----
+
+Thirdyear-level: Spezialisierung, eigenständige künstlerische Arbeit und Companyprojekt
+
+----
+
+Thirdyear-description: Im dritten Jahr arbeitest du kreativ mit deiner Klasse. Regelmäßige Showings bereiten auf das Company-Projekt im letzten Semester vor, in dem du unter realistischen Tanzcompany Bedingungen wertvolle Einblicke ins Berufsleben professioneller Tänzer*innen erhältst.
+
+----
+
+Costs-headline: Kosten
+
+----
+
+Costs-text: Die Schulgebühr beträgt für ein Schuljahr EUR 6.360,00 € und kann in 12 Raten zu monatlich EUR 530,00 € bezahlt werden. Außerdem besteht eine Kostenbeteiligungspflicht in Höhe von 60,00 € für die Work in Progress Vorstellungen in allen drei Ausbildungsjahren, 120,00 € für das Abschlussprojekt im 1. und 2. Ausbildungsjahr und 240,00 € für das Abschlussprojekt am Ende des 3. Jahres, sowie 160,00 € für das Soloprojekt im 2. Ausbildungsjahr. Die CDSH ist BAföG-anerkannt – wir helfen dir gern bei der Vermittlung eines günstigen Bildungskredites, dessen Beantragung ab dem zweiten Ausbildungsjahr möglich ist.
+
+----
+
+Fortbuildung-headline: Fortbildung
+
+----
+
+Fortbuildung-text:
+
+Fortbildung in Residence (FIR) ist das exklusive Weiterbildungsprogramm der Contemporary Dance School Hamburg – für ausgebildete Bühnentänzer*innen ohne aktuelles Engagement, die im Training bleiben oder sich weiterentwickeln möchten.
+
+Zur Auswahl stehen zwei sechmonatige Blöcke: 1. Januar – 1. Juli oder 1. September – 1. März. Bis zu 12 Einheiten pro Woche können individuell aus dem Lehrplan gewählt werden. Zudem stehen die Studios für eigene Projekte zur Verfügung, die bei »Work in Progress« oder dem Abschlussprojekt öffentlich gezeigt werden können. Optional: bis zu 6 Mentoring-Sessions sowie Mitwirkung an bis zu zwei Kreationen der Hauschoreograf*innen.
+
+Voraussetzung: abgeschlossene Tanzausbildung oder gleichwertige Erfahrung. Die Aufnahme erfolgt über Audition (live, per Video oder während des Programms). Kosten: 300 €/Monat
+
+----
+
+Fortbuildung-image: - file://fljgkcescxigk6tn
+
+----
+
+Aktuelles-headline: Aktuelles
+
+----
+
+Show-footer-cta: true
+
+----
+
+Categories-manager:
+
+- 
+  category_id: hauptfächer
+  category_name: Hauptfächer
+- 
+  category_id: nebenfächer
+  category_name: Nebenfächer
+- 
+  category_id: theoriefächer
+  category_name: Theoriefächer
+- 
+  category_id: workshops
+  category_name: Workshops

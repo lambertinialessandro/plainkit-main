@@ -1,0 +1,125 @@
+title: About Us
+icon: info
+
+tabs:
+  content:
+    label: Page Content
+    fields:
+      # --- SECTION 1: HEADER & INTRO ---
+      section_header:
+        label: 1. Header & Intro
+        type: headline
+      header_title:
+        label: Main Headline (e.g., About Us)
+        type: text
+      header_text:
+        label: Intro Text
+        type: textarea
+        size: small
+      header_image:
+        label: Header Image
+        type: files
+        max: 1
+        query: page.images
+
+      # --- SECTION 2: COLORED DESCRIPTION ---
+      section_desc:
+        label: 2. Colored Description Section
+        type: headline
+      description_left:
+        label: Left Column Text
+        type: textarea
+      description_right:
+        label: Right Column Text
+        type: textarea
+
+      # --- SECTION 3: BANNER 1 ---
+      banner_text_1:
+        label: 3. First Loop Banner Text
+        type: text
+
+      # --- SECTION 4: SPLIT SECTIONS (Dynamic) ---
+      section_split:
+        label: 4. Split Sections (Image + Text)
+        type: headline
+      split_sections:
+        label: Content Blocks
+        type: structure
+        fields:
+          title:
+            label: Title
+            type: text
+          text:
+            label: Text
+            type: textarea
+          image:
+            label: Image
+            type: files
+            max: 1
+          reverse:
+            label: Reverse Layout (Image on Left)
+            type: toggle
+            text: ["No", "Yes"]
+          bottom_border:
+            label: Bottom Border (Usually for the last item)
+            type: toggle
+            text: ["No", "Yes"]
+
+      # --- SECTION 5: COOPERATIONS ---
+      section_coop:
+        label: 5. Cooperations / Partners
+        type: headline
+      cooperations_title:
+        label: Title
+        type: text
+      cooperations_list:
+        label: Partner List
+        type: structure
+        fields:
+          name:
+            label: Partner Name
+            type: text
+
+      # --- SECTION 6: BANNER 2 ---
+      banner_text_2:
+        label: 6. Second Loop Banner Text
+        type: text
+
+      # --- SECTION 7: ARTISTIC CONCEPT ---
+      section_concept:
+        label: 7. Artistic Concept
+        type: headline
+      concept_title:
+        label: Section Title
+        type: text
+      concept_text_left:
+        label: Left Text (Quote Start)
+        type: textarea
+      concept_text_right:
+        label: Right Text (Quote End)
+        type: textarea
+      concept_image:
+        label: Director Image
+        type: files
+        max: 1
+      concept_name:
+        label: Name
+        type: text
+      concept_role:
+        label: Role
+        type: text
+
+      # --- SECTION 8: ROOMS / GALLERY ---
+      section_rooms:
+        label: 8. Rooms
+        type: headline
+      rooms_title:
+        label: Gallery Title
+        type: text
+      rooms_gallery:
+        label: Gallery Images
+        type: files
+
+      # --- SECTION 9: FOOTER CTA ---
+      footer_cta:
+        extends: fields/footer_cta

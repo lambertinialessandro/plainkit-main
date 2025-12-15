@@ -1,0 +1,140 @@
+Title: aboutUs
+
+----
+
+Header-title: Über uns
+
+----
+
+Header-text: Das Ausbildungsprogramm der CDSH verbindet die Vielfalt des zeitgenössischen Tanzes mit den individuellen künstlerischen Bedürfnissen der Studierenden und den Anforderungen der internationalen Branche.
+
+----
+
+Header-image: 
+
+----
+
+Description-left: Die Contemporary Dance School Hamburg bietet dir zeitgenössischen Tanz auf hohem Niveau und die Entwicklung deiner künstlerischen Persönlichkeit im Austausch mit erfahrenen Mentor*innen aus aller Welt. Das tägliche Training bereitet dich auf die Anforderungen deiner Karriere im Bühnentanz vor. Als staatlich anerkannte Berufsfachschule für zeitgenössischen Bühnentanz bietet dir die CDSH eine dreijährige praxisnahe Tanzausbildung, bringt dich in Kontakt mit Künstler*innen aus der Szene und
+
+----
+
+Description-right: kooperiert mit vielen relevanten Bereichen der tänzerischen Bildung. Ein wirksames Unterrichtsprogramm hilft dir, dich technisch, künstlerisch und kreativ weiterzuentwickeln. Durch choreografische Projektarbeit bekommst du ein Gefühl für die professionelle Arbeit und sammelst Bühnenerfahrung durch regelmäßige Auftritte im Theater. Ein erfahrenes Team aus Künstler*innen und Pädagog*innen unterstützt dich bei deiner Entwicklung in der tänzerischen Ausbildung.
+
+----
+
+Banner-text-1: WORKSHOPS, EDUCATION, TRAINING
+
+----
+
+Split-sections:
+
+- 
+  title: 'Talent, Technik & Tanzsprache'
+  text: >
+    Wir fördern die Findung der
+    individuellen künsterischen
+    Persönlichkeit. Die Basis dessen bildet
+    eine fundierte Ausbildung im Bereich
+    etablierter Tanzstile.
+  image:
+    - file://is3x30qu9eadb7wv
+  reverse: 'false'
+  bottom_border: 'false'
+- 
+  title: 'Förderung & Kooperation'
+  text: 'Wir vermitteln auch nach dem Abschluss Jobs und stellen Proberäume kostenfrei bereit. Außerdem profitiert ihr während der Ausbildung von unserem Netzwerk internationaler Mentor*innen.'
+  image:
+    - file://bik3jh6d1s6aq4uf
+  reverse: 'false'
+  bottom_border: 'false'
+- 
+  title: 'Choreografie & Praxis'
+  text: >
+    Wir erarbeiten zielgerichtete
+    Choreografien und sammeln bereits
+    während der Ausbildung viele
+    Erfahrungen auf lokalen Bühnen und
+    Events.
+  image:
+    - file://9cxie6b7sh5cukyd
+  reverse: 'true'
+  bottom_border: 'false'
+
+----
+
+Cooperations-title: Kooperationen
+
+----
+
+Cooperations-list:
+
+- 
+  name: Logo Platzhalter
+- 
+  name: Logo Platzhalter
+- 
+  name: Logo Platzhalter
+- 
+  name: Logo Platzhalter
+- 
+  name: Logo Platzhalter
+- 
+  name: Logo Platzhalter
+- 
+  name: Logo Platzhalter
+
+----
+
+Banner-text-2: OPENNESS, RESPECT, TOLERANCE, CREATIVITY
+
+----
+
+Concept-title: Künstlerisches Konzept
+
+----
+
+Concept-text-left: »In meiner Tätigkeit als Künstlerischer Leiter der Contemporary Dance School Hamburg verbinde ich das kreative und technische Potenzial der CDSH mit den Ansprüchen einer praxisorientierten Ausbildung für den  zeitgenössischen Bühnentanz. Mein Ziel ist es, durch den Austausch der CDSH mit unterschiedlichen Künstler*innen und Kooperationspartner*innen den zukünftigen Tänzern schon während der Ausbildung eine bestmögliche Einbindung in verschiedene Produktionen und Projekte zu ermöglichen.
+
+----
+
+Concept-text-right: Damit fördern wir ein Netzwerk, das auch über die Ausbildung hinaus einen kreativen Austausch ermöglicht und den beruflichen Einstieg erleichtert. Meiner Erfahrung nach ist die Entwicklung des kreativen Potenzials in viele Richtungen einer der wichtigsten Bestandteile in der künstlerischen Ausbildung. Das Spektrum der CDSH umfasst sowohl die technische Schulung als auch die individuelle Förderung der künstlerischen Persönlichkeit der Tänzer.«
+
+----
+
+Concept-image: - file://nwqherhqdqo3qvux
+
+----
+
+Concept-name: RAUL VALDEZ
+
+----
+
+Concept-role: Artistic Director
+
+----
+
+Rooms-title: Räumlichkeiten
+
+----
+
+Rooms-gallery:
+
+- file://0l8szppjrt3l60fe
+- file://fbnfwailk5rivnla
+- file://9fr3oxyrymxjzkgi
+
+----
+
+Cta-title: Want to get to know us?
+
+----
+
+Cta-text: Wir dich ebenfalls. Neben den regulären Auditions sind wir bei Fragen rund um die Ausbildung per Mail oder telefonisch für dich da.
+
+----
+
+Concept-text:
+
+»In meiner Tätigkeit als Künstlerischer Leiter der Contemporary Dance School Hamburg verbinde ich das kreative und technische Potenzial der CDSH mit den Ansprüchen einer praxisorientierten Ausbildung für den zeitgenössischen Bühnentanz. Mein Ziel ist es, durch den Austausch der CDSH mit unterschiedlichen Künstler*innen und Kooperationspartner*innen den zukünftigen Tänzern schon während der Ausbildung eine bestmögliche Einbindung in verschiedene Produktionen und Projekte zu ermöglichen.
+
+Damit fördern wir ein Netzwerk, das auch über die Ausbildung hinaus einen kreativen Austausch ermöglicht und den beruflichen Einstieg erleichtert. Meiner Erfahrung nach ist die Entwicklung des kreativen Potenzials in viele Richtungen einer der wichtigsten Bestandteile in der künstlerischen Ausbildung. Das Spektrum der CDSH umfasst sowohl die technische Schulung als auch die individuelle Förderung der künstlerischen Persönlichkeit der Tänzer.«

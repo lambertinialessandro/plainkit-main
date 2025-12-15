@@ -1,0 +1,68 @@
+title: News
+icon: static
+
+tabs:
+  content:
+    label: Page Content
+    fields:
+      # --- HEADER ---
+      section_header:
+        label: 1. Header
+        type: headline
+      header_title:
+        label: Main Headline
+        type: text
+      header_intro:
+        label: Intro Text
+        type: textarea
+      header_image:
+        label: Header Image
+        type: files
+        max: 1
+
+      # --- CALL TO ACTION BANNER ---
+      section_banner:
+        label: 2. Audition Banner (Loop)
+        type: headline
+      banner_text:
+        label: Banner Label
+        type: text
+      banner_link_text:
+        label: Link Text
+        type: text
+      banner_link_url:
+        label: Link URL (e.g., /auditions)
+        type: text
+
+      # --- NEWS ITEMS (CAROUSEL) ---
+      section_news:
+        label: 3. News Feed
+        type: headline
+      news_items:
+        label: News Articles
+        type: structure
+        fields:
+          title:
+            label: Title
+            type: text
+          projectId:
+            label: Project
+            type: select
+            options: query
+            query:
+              fetch: site.find('projects').projects_list.toStructure
+              text: "{{ item.project_title }}"
+              value: "{{ item.project_id }}"
+          description:
+            label: Short Description
+            type: textarea
+          image:
+            label: Image
+            type: files
+            max: 1
+
+      # --- SECTION 9: FOOTER CTA ---
+      line_8:
+        type: line
+      footer_cta:
+        extends: fields/footer_cta
