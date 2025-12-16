@@ -6,6 +6,9 @@ $allowed_origins = [
     'http://localhost:3001'
 ];
 
+$origin = $_SERVER['HTTP_ORIGIN'] ?? null;
+$is_origin_allowed = in_array($origin, $allowed_origins);
+
 return [
     'debug' => true,
     'languages' => true,
@@ -18,12 +21,12 @@ return [
             [
                 'pattern' => '(:all)',
                 'method' => 'OPTIONS',
-                'action' => function () {
-                    if (in_array($origin, $allowed_origins)) {
+                'action' => function () use ($origin, $is_origin_allowed) {
+                    if ($is_origin_allowed) {
                         header("Access-Control-Allow-Origin: $origin");
-
                         header('Access-Control-Allow-Methods: GET, POST, PUT, PATCH, DELETE, OPTIONS');
                         header('Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With');
+                        header('Access-Control-Max-Age: 86400');
                     }
                     return new Response('', 'text/plain', 204);
                 }
@@ -34,14 +37,14 @@ return [
                 'pattern' => 'aboutUs',
                 'method' => 'GET',
                 'auth' => false,
-                'action' => function () {
+                'action' => function () use ($origin, $is_origin_allowed) {
                     $langCode = get('lang', 'en');
                     kirby()->setCurrentLanguage($langCode);
-                    if (in_array($origin, $allowed_origins)) {
+                    if ($is_origin_allowed) {
                         header("Access-Control-Allow-Origin: $origin");
-
                         header('Access-Control-Allow-Methods: GET, POST, PUT, PATCH, DELETE, OPTIONS');
                         header('Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With');
+                        header('Access-Control-Max-Age: 86400');
                     }
                     $page = page('aboutUs');
                     if (!$page) {
@@ -56,14 +59,14 @@ return [
                 'pattern' => 'team',
                 'method' => 'GET',
                 'auth' => false,
-                'action' => function () {
+                'action' => function () use ($origin, $is_origin_allowed) {
                     $langCode = get('lang', 'en');
                     kirby()->setCurrentLanguage($langCode);
-                    if (in_array($origin, $allowed_origins)) {
+                    if ($is_origin_allowed) {
                         header("Access-Control-Allow-Origin: $origin");
-
                         header('Access-Control-Allow-Methods: GET, POST, PUT, PATCH, DELETE, OPTIONS');
                         header('Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With');
+                        header('Access-Control-Max-Age: 86400');
                     }
                     header("Content-Type: application/json");
                     $page = page('team');
@@ -80,14 +83,14 @@ return [
                 'pattern' => 'students',
                 'method' => 'GET',
                 'auth' => false,
-                'action' => function () {
+                'action' => function () use ($origin, $is_origin_allowed) {
                     $langCode = get('lang', 'en');
                     kirby()->setCurrentLanguage($langCode);
-                    if (in_array($origin, $allowed_origins)) {
+                    if ($is_origin_allowed) {
                         header("Access-Control-Allow-Origin: $origin");
-
                         header('Access-Control-Allow-Methods: GET, POST, PUT, PATCH, DELETE, OPTIONS');
                         header('Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With');
+                        header('Access-Control-Max-Age: 86400');
                     }
                     header("Content-Type: application/json");
                     $page = page('students');
@@ -104,14 +107,14 @@ return [
                 'pattern' => 'projects',
                 'method' => 'GET',
                 'auth' => false,
-                'action' => function () {
+                'action' => function () use ($origin, $is_origin_allowed) {
                     $langCode = get('lang', 'en');
                     kirby()->setCurrentLanguage($langCode);
-                    if (in_array($origin, $allowed_origins)) {
+                    if ($is_origin_allowed) {
                         header("Access-Control-Allow-Origin: $origin");
-
                         header('Access-Control-Allow-Methods: GET, POST, PUT, PATCH, DELETE, OPTIONS');
                         header('Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With');
+                        header('Access-Control-Max-Age: 86400');
                     }
                     header("Content-Type: application/json");
                     $page = page('projects');
@@ -128,14 +131,14 @@ return [
                 'pattern' => 'education',
                 'method' => 'GET',
                 'auth' => false,
-                'action' => function () {
+                'action' => function () use ($origin, $is_origin_allowed) {
                     $langCode = get('lang', 'en');
                     kirby()->setCurrentLanguage($langCode);
-                    if (in_array($origin, $allowed_origins)) {
+                    if ($is_origin_allowed) {
                         header("Access-Control-Allow-Origin: $origin");
-
                         header('Access-Control-Allow-Methods: GET, POST, PUT, PATCH, DELETE, OPTIONS');
                         header('Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With');
+                        header('Access-Control-Max-Age: 86400');
                     }
                     header("Content-Type: application/json");
                     $page = page('education');
@@ -152,14 +155,14 @@ return [
                 'pattern' => 'news',
                 'method' => 'GET',
                 'auth' => false,
-                'action' => function () {
+                'action' => function () use ($origin, $is_origin_allowed) {
                     $langCode = get('lang', 'en');
                     kirby()->setCurrentLanguage($langCode);
-                    if (in_array($origin, $allowed_origins)) {
+                    if ($is_origin_allowed) {
                         header("Access-Control-Allow-Origin: $origin");
-
                         header('Access-Control-Allow-Methods: GET, POST, PUT, PATCH, DELETE, OPTIONS');
                         header('Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With');
+                        header('Access-Control-Max-Age: 86400');
                     }
                     $page = page('news');
                     if (!$page) {
@@ -174,10 +177,15 @@ return [
                 'pattern' => 'faq',
                 'method' => 'GET',
                 'auth' => false,
-                'action' => function () {
+                'action' => function () use ($origin, $is_origin_allowed) {
                     $langCode = get('lang', default: 'en');
                     kirby()->setCurrentLanguage($langCode);
-                    header('Access-Control-Allow-Origin: http://localhost:3000');
+                    if ($is_origin_allowed) {
+                        header("Access-Control-Allow-Origin: $origin");
+                        header('Access-Control-Allow-Methods: GET, POST, PUT, PATCH, DELETE, OPTIONS');
+                        header('Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With');
+                        header('Access-Control-Max-Age: 86400');
+                    }
                     $page = page('faq');
                     if (!$page) {
                         return new Kirby\Http\Response('Faq page not found', 'application/json', 404);
@@ -191,10 +199,15 @@ return [
                 'pattern' => 'dataProtection',
                 'method' => 'GET',
                 'auth' => false,
-                'action' => function () {
+                'action' => function () use ($origin, $is_origin_allowed) {
                     $langCode = get('lang', default: 'en');
                     kirby()->setCurrentLanguage($langCode);
-                    header('Access-Control-Allow-Origin: http://localhost:3000');
+                    if ($is_origin_allowed) {
+                        header("Access-Control-Allow-Origin: $origin");
+                        header('Access-Control-Allow-Methods: GET, POST, PUT, PATCH, DELETE, OPTIONS');
+                        header('Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With');
+                        header('Access-Control-Max-Age: 86400');
+                    }
                     $page = page('dataProtection');
                     if (!$page) {
                         return new Kirby\Http\Response('Data Protection page not found', 'application/json', 404);
@@ -214,7 +227,7 @@ return [
         [
             'pattern' => 'auth/ping',
             'method' => 'GET',
-            'action' => function () {
+            'action' => function () use ($origin, $is_origin_allowed) {
                 return [
                     'status' => 'success',
                     'message' => 'API is alive and ready.',
