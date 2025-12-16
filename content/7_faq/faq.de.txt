@@ -1,0 +1,96 @@
+Title: faq
+
+----
+
+Intro-headline: FAQ
+
+----
+
+Intro-text: Du hast eine Frage? Vielleicht hat jemand anderes sie bereits gestellt. Schau'doch mal nach!
+
+----
+
+Faq-list:
+
+- 
+  question: >
+    Muss ich volljährig sein, um die
+    Ausbildung zu beginnen?
+  answer: >
+    Der Unterricht wird überwiegend auf
+    Englisch durchgeführt, um
+    internationalen Studierenden den
+    Einstieg zu erleichtern. Lorem ipsum
+    dolor sit amet, consectetur adipiscing
+    elit. Praesent tempus lorem et sapien
+    tincidunt, vitae porttitor magna
+    hendrerit.
+- 
+  question: >
+    Wie lange dauert die Ausbildung und wie
+    st sie aufgebaut?
+  answer: >
+    Der Unterricht wird überwiegend auf
+    Englisch durchgeführt, um
+    internationalen Studierenden den
+    Einstieg zu erleichtern. Lorem ipsum
+    dolor sit amet, consectetur adipiscing
+    elit. Praesent tempus lorem et sapien
+    tincidunt, vitae porttitor magna
+    hendrerit.
+- 
+  question: Wie läuft das Aufnahmeverfahren ab?
+  answer: >
+    Der Unterricht wird überwiegend auf
+    Englisch durchgeführt, um
+    internationalen Studierenden den
+    Einstieg zu erleichtern. Lorem ipsum
+    dolor sit amet, consectetur adipiscing
+    elit. Praesent tempus lorem et sapien
+    tincidunt, vitae porttitor magna
+    hendrerit.
+- 
+  question: Gibt es einen Tag der offenen Tür?
+  answer: >
+    Der Unterricht wird überwiegend auf
+    Englisch durchgeführt, um
+    internationalen Studierenden den
+    Einstieg zu erleichtern. Lorem ipsum
+    dolor sit amet, consectetur adipiscing
+    elit. Praesent tempus lorem et sapien
+    tincidunt, vitae porttitor magna
+    hendrerit.
+- 
+  question: >
+    In welcher Sprache findet der Unterricht
+    statt?
+  answer: >
+    Der Unterricht wird überwiegend auf
+    Englisch durchgeführt, um
+    internationalen Studierenden den
+    Einstieg zu erleichtern. Lorem ipsum
+    dolor sit amet, consectetur adipiscing
+    elit. Praesent tempus lorem et sapien
+    tincidunt, vitae porttitor magna
+    hendrerit.
+- 
+  question: >
+    Gibt es Finanzierungsmöglichkeiten oder
+    Stipendien?
+  answer: >
+    Der Unterricht wird überwiegend auf
+    Englisch durchgeführt, um
+    internationalen Studierenden den
+    Einstieg zu erleichtern. Lorem ipsum
+    dolor sit amet, consectetur adipiscing
+    elit. Praesent tempus lorem et sapien
+    tincidunt, vitae porttitor magna
+    hendrerit.
+
+----
+
+Show-footer-cta: true
+
+----
+
+Seo-description: 

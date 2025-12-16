@@ -5,17 +5,17 @@ tabs:
   content:
     label: Page Content
     fields:
-      # --- SECTION 1: HEADER ---
+      # --- SECTION 1: HEADER & INTRO ---
       section_header_label:
-        label: 1. Header Section
+        label: 1. Header & Intro
         type: headline
 
       header_headline:
-        label: Main Title
+        label: Main Headline
         type: text
 
       header_image:
-        label: Header Background Image
+        label: Header Image
         type: files
         max: 1
         query: page.images
@@ -28,12 +28,12 @@ tabs:
         type: headline
 
       intro_text_left:
-        label: Intro Text (Left Column)
+        label: Intro Text (left side)
         type: textarea
         width: 1/2
 
       intro_text_right:
-        label: Intro Text (Right Column)
+        label: Intro Text (right side)
         type: textarea
         width: 1/2
 
@@ -58,7 +58,7 @@ tabs:
       line_3:
         type: line
       section_subjects_label:
-        label: 4. Subjects Selector
+        label: 4. Subjects List
         type: headline
 
       subjects_list:

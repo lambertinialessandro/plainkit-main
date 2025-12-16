@@ -1,0 +1,54 @@
+title: FAQ
+icon: question
+
+tabs:
+  content:
+    label: Page Content
+    fields:
+      # --- SECTION 1: HEADER & INTRO ---
+      section_header_label:
+        label: 1. Header & Intro
+        type: headline
+      
+      intro_headline:
+        label: Main Headline (e.g., FAQ)
+        type: text
+
+      intro_text:
+        label: Bubble Text
+        type: textarea
+        size: small
+
+      # --- SECTION 2: QUESTIONS LIST ---
+      line_1:
+        type: line
+      
+      section_faq_label:
+        label: 2. Questions & Answers List
+        type: headline
+
+      faq_list:
+        label: FAQs
+        type: structure
+        columns:
+          question:
+            width: 1/2
+          answer:
+            width: 1/2
+        fields:
+          question:
+            label: Question
+            type: text
+            required: true
+          answer:
+            label: Answer
+            type: textarea
+            required: true
+            size: medium
+
+      # --- SECTION 3: FOOTER / CONTACT ---
+      line_2:
+        type: line
+      
+      footer_cta:
+        extends: fields/footer_cta

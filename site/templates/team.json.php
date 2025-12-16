@@ -19,6 +19,16 @@ foreach ($page->roles_manager()->toStructure() as $role) {
 }
 if ($searchId) {
     $member = $membersStructure->findBy('member_id', $searchId);
+    $roleValues = $member->member_role()->split(',');
+    $rolesArray = [];
+
+    foreach ($roleValues as $roleValue) {
+        $roleValue = trim($roleValue);
+        $rolesArray[] = [
+            'id' => $roleValue,
+            'name' => $roles_map[$roleValue] ?? $roleValue
+        ];
+    }
 
     if ($member) {
         $imageFile = $member->member_image()->toFile();
@@ -26,11 +36,9 @@ if ($searchId) {
         return [
             'id' => $member->member_id()->value(),
             'name' => $member->member_name()->value(),
-            'biography' => $member->member_biography()->value(),
-            'role' => [
-                'id' => $roleId,
-                'name' => $roles_map[$roleId] ?? $roleId
-            ],
+            'biographyLeft' => $member->member_biography_left()->value(),
+            'biographyRight' => $member->member_biography_right()->value(),
+            'roles' => $rolesArray,
             'subjects' => $member->member_subjects()->split(','),
             'src' => $imageFile ? $imageFile->url() : null,
         ];

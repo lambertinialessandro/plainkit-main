@@ -5,12 +5,12 @@ tabs:
   content:
     label: Page Content
     fields:
-      # --- HEADER ---
+      # --- SECTION 1: HEADER & INTRO ---
       section_header:
-        label: 1. Header
+        label: 1. Header & Intro
         type: headline
       header_title:
-        label: Main Headline
+        label: Main Headline (e.g., News)
         type: text
       header_intro:
         label: Intro Text
@@ -20,7 +20,9 @@ tabs:
         type: files
         max: 1
 
-      # --- CALL TO ACTION BANNER ---
+      # --- SECTION 2: CALL TO ACTION BANNER ---
+      line_1:
+        type: line
       section_banner:
         label: 2. Audition Banner (Loop)
         type: headline
@@ -34,7 +36,9 @@ tabs:
         label: Link URL (e.g., /auditions)
         type: text
 
-      # --- NEWS ITEMS (CAROUSEL) ---
+      # --- SECTION 3: NEWS ITEMS (CAROUSEL) ---
+      line_2:
+        type: line
       section_news:
         label: 3. News Feed
         type: headline
@@ -61,8 +65,8 @@ tabs:
             type: files
             max: 1
 
-      # --- SECTION 9: FOOTER CTA ---
-      line_8:
+      # --- SECTION 4: FOOTER CTA ---
+      line_3:
         type: line
       footer_cta:
         extends: fields/footer_cta

@@ -23,6 +23,8 @@ tabs:
         query: page.images
 
       # --- SECTION 2: COLORED DESCRIPTION ---
+      line_1:
+        type: line
       section_desc:
         label: 2. Colored Description Section
         type: headline
@@ -34,11 +36,15 @@ tabs:
         type: textarea
 
       # --- SECTION 3: BANNER 1 ---
+      line_2:
+        type: line
       banner_text_1:
         label: 3. First Loop Banner Text
         type: text
 
-      # --- SECTION 4: SPLIT SECTIONS (Dynamic) ---
+      # --- SECTION 4: SPLIT SECTIONS ---
+      line_3:
+        type: line
       section_split:
         label: 4. Split Sections (Image + Text)
         type: headline
@@ -66,6 +72,8 @@ tabs:
             text: ["No", "Yes"]
 
       # --- SECTION 5: COOPERATIONS ---
+      line_4:
+        type: line
       section_coop:
         label: 5. Cooperations / Partners
         type: headline
@@ -81,11 +89,15 @@ tabs:
             type: text
 
       # --- SECTION 6: BANNER 2 ---
+      line_5:
+        type: line
       banner_text_2:
         label: 6. Second Loop Banner Text
         type: text
 
       # --- SECTION 7: ARTISTIC CONCEPT ---
+      line_6:
+        type: line
       section_concept:
         label: 7. Artistic Concept
         type: headline
@@ -110,6 +122,8 @@ tabs:
         type: text
 
       # --- SECTION 8: ROOMS / GALLERY ---
+      line_7:
+        type: line
       section_rooms:
         label: 8. Rooms
         type: headline

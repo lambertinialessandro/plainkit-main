@@ -11,7 +11,7 @@ tabs:
         type: headline
       
       intro_headline:
-        label: Main Headline (e.g., Team)
+        label: Main Headline (e.g., The Students)
         type: text
       
       intro_text:
@@ -49,17 +49,21 @@ tabs:
             type: text
             required: true
           class_description_left:
-            label: Description
+            label: Description (left side)
             type: textarea
             size: medium
             buttons: false
             help: Detailed description for the class dedicated page.
           class_description_right:
-            label: Description
+            label: Description (right side)
             type: textarea
             size: medium
             buttons: false
             help: Detailed description for the class dedicated page.
+          class_student_header:
+            label: Title student list
+            type: text
+            required: true
           class_names:
             label: Students name
             type: textarea
@@ -80,7 +84,7 @@ tabs:
               text: "{{ item.project_title }}"
               value: "{{ item.project_id }}"
           class_year:
-            label: Anni di Studio
+            label: Years of Study
             type: structure
             fields:
               start:
@@ -90,7 +94,8 @@ tabs:
               end:
                 label: End year
                 type: number
-                min: 2000           
+                min: 2000  
+                         
       # --- SECTION 3: FOOTER CTA ---
       line_2:
         type: line
