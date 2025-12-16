@@ -1,6 +1,11 @@
 <?php
 use Kirby\Http\Response;
 
+$allowed_origins = [
+    'http://localhost:3000',
+    'http://localhost:3001'
+];
+
 return [
     'debug' => true,
     'languages' => true,
@@ -14,9 +19,12 @@ return [
                 'pattern' => '(:all)',
                 'method' => 'OPTIONS',
                 'action' => function () {
-                    header('Access-Control-Allow-Origin: http://localhost:3000');
-                    header('Access-Control-Allow-Methods: GET, POST, PUT, PATCH, DELETE, OPTIONS');
-                    header('Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With');
+                    if (in_array($origin, $allowed_origins)) {
+                        header("Access-Control-Allow-Origin: $origin");
+
+                        header('Access-Control-Allow-Methods: GET, POST, PUT, PATCH, DELETE, OPTIONS');
+                        header('Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With');
+                    }
                     return new Response('', 'text/plain', 204);
                 }
             ],
@@ -29,7 +37,12 @@ return [
                 'action' => function () {
                     $langCode = get('lang', 'en');
                     kirby()->setCurrentLanguage($langCode);
-                    header('Access-Control-Allow-Origin: http://localhost:3000');
+                    if (in_array($origin, $allowed_origins)) {
+                        header("Access-Control-Allow-Origin: $origin");
+
+                        header('Access-Control-Allow-Methods: GET, POST, PUT, PATCH, DELETE, OPTIONS');
+                        header('Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With');
+                    }
                     $page = page('aboutUs');
                     if (!$page) {
                         return new Response('About page not found', 'application/json', 404);
@@ -46,7 +59,12 @@ return [
                 'action' => function () {
                     $langCode = get('lang', 'en');
                     kirby()->setCurrentLanguage($langCode);
-                    header('Access-Control-Allow-Origin: http://localhost:3000');
+                    if (in_array($origin, $allowed_origins)) {
+                        header("Access-Control-Allow-Origin: $origin");
+
+                        header('Access-Control-Allow-Methods: GET, POST, PUT, PATCH, DELETE, OPTIONS');
+                        header('Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With');
+                    }
                     header("Content-Type: application/json");
                     $page = page('team');
                     if (!$page) {
@@ -65,7 +83,12 @@ return [
                 'action' => function () {
                     $langCode = get('lang', 'en');
                     kirby()->setCurrentLanguage($langCode);
-                    header('Access-Control-Allow-Origin: http://localhost:3000');
+                    if (in_array($origin, $allowed_origins)) {
+                        header("Access-Control-Allow-Origin: $origin");
+
+                        header('Access-Control-Allow-Methods: GET, POST, PUT, PATCH, DELETE, OPTIONS');
+                        header('Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With');
+                    }
                     header("Content-Type: application/json");
                     $page = page('students');
                     if (!$page) {
@@ -84,7 +107,12 @@ return [
                 'action' => function () {
                     $langCode = get('lang', 'en');
                     kirby()->setCurrentLanguage($langCode);
-                    header('Access-Control-Allow-Origin: http://localhost:3000');
+                    if (in_array($origin, $allowed_origins)) {
+                        header("Access-Control-Allow-Origin: $origin");
+
+                        header('Access-Control-Allow-Methods: GET, POST, PUT, PATCH, DELETE, OPTIONS');
+                        header('Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With');
+                    }
                     header("Content-Type: application/json");
                     $page = page('projects');
                     if (!$page) {
@@ -102,7 +130,12 @@ return [
                 'action' => function () {
                     $langCode = get('lang', 'en');
                     kirby()->setCurrentLanguage($langCode);
-                    header('Access-Control-Allow-Origin: http://localhost:3000');
+                    if (in_array($origin, $allowed_origins)) {
+                        header("Access-Control-Allow-Origin: $origin");
+
+                        header('Access-Control-Allow-Methods: GET, POST, PUT, PATCH, DELETE, OPTIONS');
+                        header('Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With');
+                    }
                     header("Content-Type: application/json");
                     $page = page('education');
                     if (!$page) {
@@ -121,7 +154,12 @@ return [
                 'action' => function () {
                     $langCode = get('lang', 'en');
                     kirby()->setCurrentLanguage($langCode);
-                    header('Access-Control-Allow-Origin: http://localhost:3000');
+                    if (in_array($origin, $allowed_origins)) {
+                        header("Access-Control-Allow-Origin: $origin");
+
+                        header('Access-Control-Allow-Methods: GET, POST, PUT, PATCH, DELETE, OPTIONS');
+                        header('Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With');
+                    }
                     $page = page('news');
                     if (!$page) {
                         return new Kirby\Http\Response('News page not found', 'application/json', 404);
