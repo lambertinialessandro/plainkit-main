@@ -9,15 +9,12 @@ tabs:
       section_header_label:
         label: 1. Header & Intro
         type: headline
-      
       intro_headline:
         label: Main Headline (e.g., Team)
         type: text
-      
       intro_text:
         label: Introductory Text
         type: textarea
-      
       header_image:
         label: Header Image
         type: files
@@ -65,10 +62,16 @@ tabs:
             type: text
             required: true
             width: 1/2
-          member_biography:
-            label: Biography / Vita
+          member_biography_left:
+            label: Biography / Vita (left side)
             type: textarea
-            size: large
+            size: medium
+            buttons: false
+            help: Detailed biography for the member's dedicated page.
+          member_biography_right:
+            label: Biography / Vita (right side)
+            type: textarea
+            size: medium
             buttons: false
             help: Detailed biography for the member's dedicated page.
           member_image:
@@ -76,9 +79,9 @@ tabs:
             type: files
             max: 1
             query: page.images
-          member_role:
+          member_roles:
             label: Role (Select from list)
-            type: select
+            type: multiselect
             options: query
             query:
               fetch: page.roles_manager.toStructure
@@ -174,7 +177,7 @@ tabs:
             query: page.images
           member_role:
             label: Role (Select from list)
-            type: select
+            type: multiselect
             options: query
             query:
               fetch: page.roles_manager.toStructure

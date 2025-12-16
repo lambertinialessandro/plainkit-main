@@ -37,6 +37,7 @@ if ($searchId) {
             'name' => $group->class_name()->value(),
             'descriptionLeft' => $group->class_description_left()->value(),
             'descriptionRight' => $group->class_description_right()->value(),
+            'studentsHeader' => $group->class_student_header()->value(),
             'students' => $group->class_names()->value(),
             'src' => $imageFile ? $imageFile->url() : null,
             'relatedProjects' => $relatedProjectsData,

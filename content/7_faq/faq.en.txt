@@ -1,0 +1,94 @@
+Title: faq
+
+----
+
+Intro-headline: FAQ
+
+----
+
+Intro-text: Do you have a question? Perhaps someone else has already asked it. Why not take a look?
+
+----
+
+Faq-list:
+
+- 
+  question: >
+    Do I have to be of legal age to start
+    the training?
+  answer: >
+    The lessons are mainly conducted in
+    English to make it easier for
+    international students to get started.
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Present tempus lorem et
+    sapien tincidunt, vitae porttitor magna
+    hendrerit.
+- 
+  question: >
+    How long does the training last and how
+    is it structured?
+  answer: >
+    The lessons are mainly conducted in
+    English to make it easier for
+    international students to get started.
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Present tempus lorem et
+    sapien tincidunt, vitae porttitor magna
+    hendrerit.
+- 
+  question: How does the application process work?
+  answer: >
+    The lessons are mainly conducted in
+    English to make it easier for
+    international students to get started.
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Present tempus lorem et
+    sapien tincidunt, vitae porttitor magna
+    hendrerit.
+- 
+  question: Is there an open day?
+  answer: >
+    The lessons are mainly conducted in
+    English to make it easier for
+    international students to get started.
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Present tempus lorem et
+    sapien tincidunt, vitae porttitor magna
+    hendrerit.
+- 
+  question: >
+    In which language is the instruction
+    given?
+  answer: >
+    The lessons are mainly conducted in
+    English to make it easier for
+    international students to get started.
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Present tempus lorem et
+    sapien tincidunt, vitae porttitor magna
+    hendrerit.
+- 
+  question: >
+    Are there any funding opportunities or
+    scholarships available?
+  answer: >
+    The lessons are mainly conducted in
+    English to make it easier for
+    international students to get started.
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Present tempus lorem et
+    sapien tincidunt, vitae porttitor magna
+    hendrerit.
+
+----
+
+Show-footer-cta: true
+
+----
+
+Seo-description: 
+
+----
+
+Uuid: fzk7sopxatu5itj0

@@ -95,6 +95,7 @@ return [
                 }
             ],
 
+            // EDUCATION 
             [
                 'pattern' => 'education',
                 'method' => 'GET',
@@ -127,6 +128,40 @@ return [
                         return new Kirby\Http\Response('News page not found', 'application/json', 404);
                     }
                     return require kirby()->root('templates') . '/news.json.php';
+                }
+            ],
+
+            // FAQ
+            [
+                'pattern' => 'faq',
+                'method' => 'GET',
+                'auth' => false,
+                'action' => function () {
+                    $langCode = get('lang', default: 'en');
+                    kirby()->setCurrentLanguage($langCode);
+                    header('Access-Control-Allow-Origin: http://localhost:3000');
+                    $page = page('faq');
+                    if (!$page) {
+                        return new Kirby\Http\Response('Faq page not found', 'application/json', 404);
+                    }
+                    return require kirby()->root('templates') . '/faq.json.php';
+                }
+            ],
+
+            // DATA PROTECTION
+            [
+                'pattern' => 'dataProtection',
+                'method' => 'GET',
+                'auth' => false,
+                'action' => function () {
+                    $langCode = get('lang', default: 'en');
+                    kirby()->setCurrentLanguage($langCode);
+                    header('Access-Control-Allow-Origin: http://localhost:3000');
+                    $page = page('dataProtection');
+                    if (!$page) {
+                        return new Kirby\Http\Response('Data Protection page not found', 'application/json', 404);
+                    }
+                    return require kirby()->root('templates') . '/dataProtection.json.php';
                 }
             ],
         ],

@@ -34,6 +34,7 @@ Student-groups:
     is seen as the moment when an inner
     truth is revealed through suggestion or
     silence.
+  class_student_header: The students
   class_names: >
     Ana Sofía González Esparza, Angel
     Jahir Negrete Valadez, Antonis
@@ -69,6 +70,7 @@ Student-groups:
     unique traits, our role in the world
     (community) and discovering what we want
     to say as artists.
+  class_student_header: The students
   class_names: >
     Alva Nilsson, Ana Chuntisvili, Ana Paula
     Salcido Roa, Aurora Pollini, Camila
@@ -107,6 +109,7 @@ Student-groups:
     matter the obstacles, and in doing so,
     learns how to take care of each other as
     dancers and most importantly, as people.
+  class_student_header: The students
   class_names: 'Agnese Fornara Erbetta, Alanna Reimpell Bravo, Alessia Marra, Cristina Vaino, Daria Barbone, Daria Barbone, Denise Landini, Ellen Burgess, Emir García Pineda, Gina Kudzai Marange, Haeyeon Kang, Kyte Brüggmann, Luisa Fernanda Rivas Castillo, Nathalia Gómez Reséndiz, Oladé Roland Rodolpho Sagbo, Tatjana Walter, Wendy Yeh López,  Clara Bähr,  Edwin E. Sánchez,  Katherine Aileen Osalde Lezama,  Madeleine Julie Reichert'
   class_image:
     - file://0sszvdqv5cilq8r4
